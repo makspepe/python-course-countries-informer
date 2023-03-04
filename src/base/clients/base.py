@@ -24,7 +24,6 @@ class BaseClient(ABC):
         :return:
         """
 
-    @abstractmethod
     def _request(self, endpoint: str) -> Optional[dict]:
         """
         Формирование и выполнение запроса.

@@ -5,7 +5,7 @@ build:
 	docker compose build
 
 # остановка приложения
-stop:
+down:
 	docker compose down
 
 # генерация документации

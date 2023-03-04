@@ -20,23 +20,28 @@ class NewsService:
         :return:
         """
         news = News.objects.filter(Q(country__alpha2code__contains=country_code))
-        if not news:
-            news_data = NewsClient().get_news(country_code)
-            if news_data:
-                codes = CountryService().get_countries_codes() or {}
-                if country_code not in codes:
-                    CountryService().get_countries(country_code)
-                    codes = CountryService().get_countries_codes() or {}
-                    if country_code not in codes:
-                        return None
-                news = News.objects.bulk_create(
-                    [
-                        self.build_model(news_item, codes[country_code])  # type: ignore
-                        for news_item in news_data
-                    ],
-                    batch_size=1000,
-                )
-        return news  # type: ignore
+        if news:
+            return news
+
+        news_data = NewsClient().get_news(country_code)
+        if not news_data:
+            return None
+
+        codes = CountryService().get_countries_codes() or {}
+        if country_code not in codes:
+            CountryService().get_countries(country_code)
+            codes = CountryService().get_countries_codes() or {}
+            if country_code not in codes:
+                return None
+
+        news = News.objects.bulk_create(
+            [
+                self.build_model(news_item, codes[country_code])
+                for news_item in news_data
+            ],
+            batch_size=1000,
+        )
+        return news
 
     def save_news(self, country_pk: int, news: list[News]) -> None:
         """

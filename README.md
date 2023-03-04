@@ -41,7 +41,7 @@ git clone https://github.com/MNV/python-course-countries-informer.git
     ```shell
     docker compose up
     ```
-   When containers are up server starts at [http://0.0.0.0:8020](http://0.0.0.0:8020). You can open it in your browser.
+   When containers are up server starts at [http://0.0.0.0:8020](http://0.0.0.0:8000). You can open it in your browser.
 
 5. To run application correctly set up the database using commands:
     Connect to the application Docker-container:
@@ -64,7 +64,11 @@ git clone https://github.com/MNV/python-course-countries-informer.git
     docker compose exec app bash
     ```
    
-3. Go to [http://0.0.0.0:8020/admin](http://0.0.0.0:8020/admin) and manage your jobs and blog posts.
+3. Go to [http://0.0.0.0:8020/admin](http://0.0.0.0:8000/admin) and manage.
+4. flower runs at [http://localhost:5555](http://localhost:5555).
+5. rabbitmq runs at [http://localhost:15672](http://localhost:15672).
+6. swagger: [http://localhost:8020/swagger/](http://localhost:8020/swagger/).
+7. All default passwords and usernames are in .env file.
 
 ## Automation commands
 
