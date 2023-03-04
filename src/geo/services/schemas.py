@@ -4,7 +4,7 @@
 
 from pydantic import Field
 
-from base.clients.shemas import HashableBaseModel
+from base.clients.schemas import HashableBaseModel
 
 
 class CountryCityDTO(HashableBaseModel):

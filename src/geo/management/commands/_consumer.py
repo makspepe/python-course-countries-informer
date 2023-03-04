@@ -8,7 +8,7 @@ from pika.spec import Basic, BasicProperties
 from pydantic import ValidationError
 
 from geo.services.city import CityService
-from geo.services.shemas import CountryCityDTO
+from geo.services.schemas import CountryCityDTO
 
 logger = logging.getLogger()
 

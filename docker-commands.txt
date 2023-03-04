@@ -1,0 +1,63 @@
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    6  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    7  sudo docker run hello-world
+    8  systemctl start docker
+    9  sudo service docker start
+   10  sudo docker run hello-world
+   11  sudo service docker start  * Starting Docker: docker
+   12  systemctl start docker
+   13  sudo dockerd
+   14  sudo docker run hello-world
+   15  sudo systemctl enable docker
+   16  sudo systemctl start docker
+   17  sudo systemctl status docker
+   18  sudo sysvinit status docker
+   23  sudo docker compose up
+   24  sudo docker ps -m
+   25  sudo docker ps -a
+   27  sudo systemctl start docker
+   28  sudo dockerd
+   29  sudo service docker start
+   30  docker run hello-world
+   31  sudo docker run hello-world
+   32  sudo service docker status
+   33  sudo service docker enable
+   34  sudo service docker 
+   35  sudo service docker status
+   36  sudo service docker stop
+   37  sudo service docker start
+   38  sudo service docker stop
+   39  sudo service docker start
+   49  service docker status
+   51  sudo service docker start
+   52  sudo service docker status
+   82  sudo docker compose run app python main.py
+   95  service docker start
+   97  sudo service docker start
+  102  sudo service docker start
+  103  sudo docker build
+  105  sudo service docker start
+  121  sudo service docker start
+  135  sudo  docker compose run app python main.py --location London
+  136  sudo docker compose run app
+  137  sudo  docker compose up cron
+  138  sudo service docker start
+  140  sudo docker compose run app
+  141  docker compose up cron
+  142  sudo docker compose run app
+  143  sudo docker compose up cron
+  144  sudo service docker start
+  147  sudo  docker compose run app python main.py --location London
+  415  sudo service docker start
+  417  docker compose exec app bash
+  418  sudo docker compose exec app bash
+  420  sudo service docker start
+  421  sudo docker compose build
+  422  sudo docker compose up
+  423  sudo service docker start
+  440  sudo service docker status
+  441  docker ps
+  442  sudo docker ps
+  444  sudo service docker start
+  446  sudo service docker start
+  451  history | grep docker > docker-commands.txt

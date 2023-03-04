@@ -4,10 +4,10 @@ from django.db.models import Q, QuerySet
 from django.db.models.functions import Lower
 
 from geo.clients.geo import GeoClient
-from geo.clients.shemas import CityDTO
+from geo.clients.schemas import CityDTO
 from geo.models import Country, City
 from geo.services.country import CountryService
-from geo.services.shemas import CountryCityDTO
+from geo.services.schemas import CountryCityDTO
 
 
 class CityService:
