@@ -1,0 +1,449 @@
+    1  sudo apt-get update
+    2  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+    3  sudo mkdir -m 0755 -p /etc/apt/keyrings
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    5  sudo apt-get update
+    6  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    7  sudo docker run hello-world
+    8  systemctl start docker
+    9  sudo service docker start
+   10  sudo docker run hello-world
+   11  sudo service docker start  * Starting Docker: docker
+   12  systemctl start docker
+   13  sudo dockerd
+   14  sudo docker run hello-world
+   15  sudo systemctl enable docker
+   16  sudo systemctl start docker
+   17  sudo systemctl status docker
+   18  sudo sysvinit status docker
+   19  wsl ~
+   20  sudo -e /etc/wsl.conf
+   21  make
+   22  make run
+   23  sudo docker compose up
+   24  sudo docker ps -m
+   25  sudo docker ps -a
+   26  systemctl list-unit-files --type=service
+   27  sudo systemctl start docker
+   28  sudo dockerd
+   29  sudo service docker start
+   30  docker run hello-world
+   31  sudo docker run hello-world
+   32  sudo service docker status
+   33  sudo service docker enable
+   34  sudo service docker 
+   35  sudo service docker status
+   36  sudo service docker stop
+   37  sudo service docker start
+   38  sudo service docker stop
+   39  sudo service docker start
+   40  sudo su
+   41  C:\Users\Максим\Desktop\python-course\python-course-bibliography-generator>
+   42  C:\Users\Максим\Desktop\python-course\python-course-bibliography-generator
+   43  cd C:\Users\Максим\Desktop\python-course\python-course-bibliography-generator
+   44  bash C:\Users\Максим\Desktop\python-course\python-course-bibliography-generator
+   45  cd
+   46  cd C:\Users\Максим\Desktop\python-course\python-course-bibliography-generator
+   47  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-bibliography-generator
+   48  make test
+   49  service docker status
+   50  sudo update-alternatives --config iptables
+   51  sudo service docker start
+   52  sudo service docker status
+   53  make test
+   54  sudo make test
+   55  sudo make run-gost
+   56  sudo make run
+   57  sudo make run-gost
+   58  sudo make run
+   59  sudo build
+   60  sudo make build
+   61  sudo make test
+   62  sudo make format
+   63  sudo make test
+   64  sudo make run
+   65  sudo make
+   66  sudo make test
+   67  sudo make build
+   68  sudo make test
+   69  sudo make build
+   70  sudo make docs-html
+   71  sudo make format
+   72  sudo make lint
+   73  sudo make run
+   74  sudo make run-gost
+   75  cp media/template.xlsx media/input.xlsx
+   76  sudo make run
+   77  sudo make run-gost
+   78  sudo make run-apa
+   79  sudo make run
+   80  sudo make run-apa
+   81  sudo make test
+   82  sudo docker compose run app python main.py
+   83  sudo make run-apa
+   84  sudo make test
+   85  sudo make run-apa
+   86  sudo make run-gost
+   87  sudo make test
+   88  sudo make run-gost
+   89  sudo make run-apa
+   90  sudo make build
+   91  sudo make docs-html
+   92  cd C:\Users\Максим\Desktop\python-course\python-course-bibliography-generator>
+   93  bash
+   94  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+   95  service docker start
+   96  bash /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+   97  sudo service docker start
+   98  make build
+   99  sudo make build
+  100  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+  101  ls
+  102  sudo service docker start
+  103  sudo docker build
+  104  sudo make build
+  105  sudo service docker start
+  106  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+  107  make all
+  108  sudo make all
+  109  sudo make test
+  110  sudo make build
+  111  sudo make test
+  112  install anyio
+  113  sudo apt-get update
+  114  sudo apt-get -y install python3-anyio
+  115  sudo make test
+  116  sudo apt-get -y install pytest-asyncio
+  117  sudo apt-get -y install pytest
+  118  pip install pytest-asyncio
+  119  sudo make test
+  120  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+  121  sudo service docker start
+  122  sudo make test
+  123  sudo make all
+  124  pip install anyio
+  125  sudo apt install python3-pip
+  126  pip install anyio
+  127  sudo make build
+  128  sudo make all
+  129  sudo make test
+  130  sudo make docs-html
+  131  sudo make format
+  132  sudo make test
+  133  sudo make build
+  134  sudo make test
+  135  sudo  docker compose run app python main.py --location London
+  136  sudo docker compose run app
+  137  sudo  docker compose up cron
+  138  sudo service docker start
+  139  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+  140  sudo docker compose run app
+  141  docker compose up cron
+  142  sudo docker compose run app
+  143  sudo docker compose up cron
+  144  sudo service docker start
+  145  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-country
+  146  sudo make test
+  147  sudo  docker compose run app python main.py --location London
+  148  -------------------------------------------------------------------------
+  149  |Страна           | United Kingdom of Great Britain and Northern Ireland|
+  150  |Регион           |                                      Northern Europe|
+  151  |Языки            |                                    English (English)|
+  152  |Население страны |                                           65.110.000|
+  153  |Курсы валют      |                                     GBP = 86.46 руб.|
+  154  |Площадь          |                                             242900.0|
+  155  |Столица          |                                               London|
+  156  |Широта           |                                                 54.0|
+  157  |Долгота          |                                                 -2.0|
+  158  |Время            |                                     09.02.2023 07:06|
+  159  |Часовой пояс     |                                                    0|
+  160  |Погода           |                                                 2.48|
+  161  |Описание погоды  |                                      overcast clouds|
+  162  |Видимость        |                                                10000|
+  163  |Влажность        |                                                   91|
+  164  |Скорость ветра   |                                                  3.6|
+  165  |Давление         |                                                 1030|
+  166  -------------------------------------------------------------------------
+  167  |Источник         |                                             BBC News|
+  168  |Новость          |Lloyd's of London boss warns UK's financial reputatio|
+  169  |                 |n is dented                                          |
+  170  |Ссылка           |         https://www.bbc.co.uk/news/business-64553955|
+  171  |Дата             |                                     08.02.2023 00:01|
+  172  |Описание         |The UK must prove its stability after a year of polit|
+  173  |                 |ical and market turbulence, says the Lloyd's of Londo|
+  174  |                 |n boss.                                              |
+  175  |Текст            |The UK's reputation for financial stability was dente|
+  176  |                 |d by a year of political turmoil, says the boss of in|
+  177  |                 |surance giant Lloyd's of London.  John Neal said conf|
+  178  |                 |idence in the UK had been hit by a high … [+4903 char|
+  179  |                 |s]                                                   |
+  180  -------------------------------------------------------------------------
+  181  |Источник         |                                                  CNN|
+  182  |Новость          |'You People' Jonah Hill and Lauren London kiss faked,|
+  183  |                 | costar says                                         |
+  184  |Ссылка           |https://www.cnn.com/2023/02/08/entertainment/jonah-hi|
+  185  |                 |ll-lauren-london-kiss/index.html                     |
+  186  |Дата             |                                     08.02.2023 16:56|
+  187  |Описание         |Did Jonah Hill and Lauran London really kiss in "You |
+  188  |                 |People?"                                             |
+  189  |Текст            |Did Jonah Hill and Lauran London really kiss in You P|
+  190  |                 |eople?  Their costar Andrew Schulz recently claimed o|
+  191  |                 |n his podcast The Brilliant Idiots with his cohost Ch|
+  192  |                 |arlamagne Tha God that the two costars d… [+1157 char|
+  193  |                 |s]                                                   |
+  194  -------------------------------------------------------------------------
+  195  |Источник         |                                          Gizmodo.com|
+  196  |Новость          |Uranium Found at London Heathrow Airport Poses 'No Th|
+  197  |                 |reat,' Police Say                                    |
+  198  |Ссылка           |https://gizmodo.com/uranium-found-at-london-heathrow-|
+  199  |                 |airport-in-december-1849976147                       |
+  200  |Дата             |                                     11.01.2023 19:37|
+  201  |Описание         |Police reassured Heathrow Airport passengers on Tuesd|
+  202  |                 |ay that there is no threat at the airport after borde|
+  203  |                 |r patrol discovered small amounts of uranium in metal|
+  204  |                 | bars shipped to the UK from Pakistan in late Decembe|
+  205  |                 |r. Read more...                                      |
+  206  |Текст            |Police reassured Heathrow Airport passengers on Tuesd|
+  207  |                 |ay that there is no threat at the airport after borde|
+  208  |                 |r patrol discovered small amounts of uranium in metal|
+  209  |                 | bars shipped to the UK from Pakistan in… [+2409 char|
+  210  |                 |s]                                                   |
+  211  -------------------------------------------------------------------------
+  212  |Страна           | United Kingdom of Great Britain and Northern Ireland|
+  213  |Регион           |                                      Northern Europe|
+  214  |Языки            |                                    English (English)|
+  215  |Население страны |                                           65.110.000|
+  216  |Курсы валют      |                                     GBP = 86.46 руб.|
+  217  |Площадь          |                                             242900.0|
+  218  |Столица          |                                               London|
+  219  |Широта           |                                                 54.0|
+  220  |Долгота          |                                                 -2.0|
+  221  |Время            |                                     09.02.2023 07:06|
+  222  |Часовой пояс     |                                                    0|
+  223  |Погода           |                                                 2.48|
+  224  |Описание погоды  |                                      overcast clouds|
+  225  |Видимость        |                                                10000|
+  226  |Влажность        |                                                   91|
+  227  |Скорость ветра   |                                                  3.6|
+  228  |Давление         |                                                 1030|
+  229  -------------------------------------------------------------------------
+  230  |Источник         |                                             BBC News|
+  231  |Новость          |Lloyd's of London boss warns UK's financial reputatio|
+  232  |                 |n is dented                                          |
+  233  |Ссылка           |         https://www.bbc.co.uk/news/business-64553955|
+  234  |Дата             |                                     08.02.2023 00:01|
+  235  |Описание         |The UK must prove its stability after a year of polit|
+  236  |                 |ical and market turbulence, says the Lloyd's of Londo|
+  237  |                 |n boss.                                              |
+  238  |Текст            |The UK's reputation for financial stability was dente|
+  239  |                 |d by a year of political turmoil, says the boss of in|
+  240  |                 |surance giant Lloyd's of London.  John Neal said conf|
+  241  |                 |idence in the UK had been hit by a high … [+4903 char|
+  242  |                 |s]                                                   |
+  243  -------------------------------------------------------------------------
+  244  |Источник         |                                                  CNN|
+  245  |Новость          |'You People' Jonah Hill and Lauren London kiss faked,|
+  246  |                 | costar says                                         |
+  247  |Ссылка           |https://www.cnn.com/2023/02/08/entertainment/jonah-hi|
+  248  |                 |ll-lauren-london-kiss/index.html                     |
+  249  |Дата             |                                     08.02.2023 16:56|
+  250  |Описание         |Did Jonah Hill and Lauran London really kiss in "You |
+  251  |                 |People?"                                             |
+  252  |Текст            |Did Jonah Hill and Lauran London really kiss in You P|
+  253  |                 |eople?  Their costar Andrew Schulz recently claimed o|
+  254  |                 |n his podcast The Brilliant Idiots with his cohost Ch|
+  255  |                 |arlamagne Tha God that the two costars d… [+1157 char|
+  256  |                 |s]                                                   |
+  257  -------------------------------------------------------------------------
+  258  |Источник         |                                          Gizmodo.com|
+  259  |Новость          |Uranium Found at London Heathrow Airport Poses 'No Th|
+  260  |                 |reat,' Police Say                                    |
+  261  |Ссылка           |https://gizmodo.com/uranium-found-at-london-heathrow-|
+  262  |                 |airport-in-december-1849976147                       |
+  263  |Дата             |                                     11.01.2023 19:37|
+  264  |Описание         |Police reassured Heathrow Airport passengers on Tuesd|
+  265  |                 |ay that there is no threat at the airport after borde|
+  266  |                 |r patrol discovered small amounts of uranium in metal|
+  267  |                 | bars shipped to the UK from Pakistan in late Decembe|
+  268  |                 |r. Read more...                                      |
+  269  |Текст            |Police reassured Heathrow Airport passengers on Tuesd|
+  270  |                 |ay that there is no threat at the airport after borde|
+  271  |                 |r patrol discovered small amounts of uranium in metal|
+  272  |                 | bars shipped to the UK from Pakistan in… [+2409 char|
+  273  |                 |s]                                                   |
+  274  -------------------------------------------------------------------------
+  275  |Страна           | United Kingdom of Great Britain and Northern Ireland|
+  276  |Регион           |                                      Northern Europe|
+  277  |Языки            |                                    English (English)|
+  278  |Население страны |                                           65.110.000|
+  279  |Курсы валют      |                                     GBP = 85.46 руб.|
+  280  |Площадь          |                                             242900.0|
+  281  |Столица          |                                               London|
+  282  |Широта           |                                                 54.0|
+  283  |Долгота          |                                                 -2.0|
+  284  |Время            |                                     25.02.2023 15:06|
+  285  |Часовой пояс     |                                                    0|
+  286  |Погода           |                                                 2.48|
+  287  |Описание погоды  |                                      overcast clouds|
+  288  |Видимость        |                                                10000|
+  289  |Влажность        |                                                   91|
+  290  |Скорость ветра   |                                                  3.6|
+  291  |Давление         |                                                 1030|
+  292  -------------------------------------------------------------------------
+  293  |Источник         |                                                  BBC|
+  294  |Новость          |Another Brexit deal is another gamble for another pri|
+  295  |                 |me minister                                         |
+  296  |Ссылка           |         https://www.bbc.co.uk/news/business-64553955|
+  297  |Дата             |                                     25.02.2023 00:01|
+  298  |Описание         |The UK must prove its stability after a year of polit|
+  299  |                 |ical and market turbulence, says the Lloyd's of Londo|
+  300  |                 |n boss.                                              |
+  301  |Текст            |The UK's reputation for financial stability was dente|
+  302  |                 |d by a year of political turmoil, says the boss of in|
+  303  |                 |surance giant Lloyd's of London.  John Neal said conf|
+  304  |                 |idence in the UK had been hit by a high … [+4903 char|
+  305  |                 |s]                                                   |
+  306  -------------------------------------------------------------------------
+  307  |Источник         |                                                  CNN|
+  308  |Новость          |'You People' Jonah Hill and Lauren London kiss faked,|
+  309  |                 | costar says                                         |
+  310  |Ссылка           |https://www.cnn.com/2023/02/08/entertainment/jonah-hi|
+  311  |                 |ll-lauren-london-kiss/index.html                     |
+  312  |Дата             |                                     25.02.2023 16:56|
+  313  |Описание         |Did Jonah Hill and Lauran London really kiss in "You |
+  314  |                 |People?"                                             |
+  315  |Текст            |Did Jonah Hill and Lauran London really kiss in You P|
+  316  |                 |eople?  Their costar Andrew Schulz recently claimed o|
+  317  |                 |n his podcast The Brilliant Idiots with his cohost Ch|
+  318  |                 |arlamagne Tha God that the two costars d… [+1157 char|
+  319  |                 |s]                                                   |
+  320  -------------------------------------------------------------------------
+  321  |Источник         |                                          Gizmodo.com|
+  322  |Новость          |May lost her job after ignoring the DUP.             |
+  323  |Ссылка           |https://gizmodo.com/uranium-found-at-london-heathrow-|
+  324  |                 |airport-in-december-1849976147                       |
+  325  |Дата             |                                     24.02.2023 19:37|
+  326  |Описание         |Police reassured Heathrow Airport passengers on Tuesd|
+  327  |                 |ay that there is no threat at the airport after borde|
+  328  |                 |r patrol discovered small amounts of uranium in metal|
+  329  |                 | bars shipped to the UK from Pakistan in late Decembe|
+  330  |                 |r. Read more...                                      |
+  331  |Текст            |Police reassured Heathrow Airport passengers on Tuesd|
+  332  |                 |ay that there is no threat at the airport after borde|
+  333  |                 |r patrol discovered small amounts of uranium in metal|
+  334  |                 | bars shipped to the UK from Pakistan in… [
+  335  |Страна           | United Kingdom of Great Britain and Northern Ireland|
+  336  |Регион           |                                      Northern Europe|
+  337  |Языки            |                                    English (English)|
+  338  |Население страны |                                           65.110.000|
+  339  |Курсы валют      |                                     GBP = 85.46 руб.|
+  340  |Площадь          |                                             242900.0|
+  341  |Столица          |                                               London|
+  342  |Широта           |                                                 54.0|
+  343  |Долгота          |                                                 -2.0|
+  344  |Время            |                                     25.02.2023 15:06|
+  345  |Часовой пояс     |                                                    0|
+  346  |Погода           |                                                 2.48|
+  347  |Описание погоды  |                                      overcast clouds|
+  348  |Видимость        |                                                10000|
+  349  |Влажность        |                                                   91|
+  350  |Скорость ветра   |                                                  3.6|
+  351  |Давление         |                                                 1030|
+  352  -------------------------------------------------------------------------
+  353  |Источник         |                                                  BBC|
+  354  |Новость          |Another Brexit deal is another gamble for another pri|
+  355  |                 |me minister                                         |
+  356  |Ссылка           |         https://www.bbc.co.uk/news/business-64553955|
+  357  |Дата             |                                     25.02.2023 00:01|
+  358  |Описание         |The UK must prove its stability after a year of polit|
+  359  |                 |ical and market turbulence, says the Lloyd's of Londo|
+  360  |                 |n boss.                                              |
+  361  |Текст            |The UK's reputation for financial stability was dente|
+  362  |                 |d by a year of political turmoil, says the boss of in|
+  363  |                 |surance giant Lloyd's of London.  John Neal said conf|
+  364  |                 |idence in the UK had been hit by a high … [+4903 char|
+  365  |                 |s]                                                   |
+  366  -------------------------------------------------------------------------
+  367  |Источник         |                                                  CNN|
+  368  |Новость          |'You People' Jonah Hill and Lauren London kiss faked,|
+  369  |                 | costar says                                         |
+  370  |Ссылка           |https://www.cnn.com/2023/02/08/entertainment/jonah-hi|
+  371  |                 |ll-lauren-london-kiss/index.html                     |
+  372  |Дата             |                                     25.02.2023 16:56|
+  373  |Описание         |Did Jonah Hill and Lauran London really kiss in "You |
+  374  |                 |People?"                                             |
+  375  |Текст            |Did Jonah Hill and Lauran London really kiss in You P|
+  376  |                 |eople?  Their costar Andrew Schulz recently claimed o|
+  377  |                 |n his podcast The Brilliant Idiots with his cohost Ch|
+  378  |                 |arlamagne Tha God that the two costars d… [+1157 char|
+  379  |                 |s]                                                   |
+  380  -------------------------------------------------------------------------
+  381  |Источник         |                                          Gizmodo.com|
+  382  |Новость          |May lost her job after ignoring the DUP.             |
+  383  |Ссылка           |https://gizmodo.com/uranium-found-at-london-heathrow-|
+  384  |                 |airport-in-december-1849976147                       |
+  385  |Дата             |                                     24.02.2023 19:37|
+  386  |Описание         |Police reassured Heathrow Airport passengers on Tuesd|
+  387  |                 |ay that there is no threat at the airport after borde|
+  388  |                 |r patrol discovered small amounts of uranium in metal|
+  389  |                 | bars shipped to the UK from Pakistan in late Decembe|
+  390  |                 |r. Read more...                                      |
+  391  |Текст            |Police reassured Heathrow Airport passengers on Tuesd|
+  392  |                 |ay that there is no threat at the airport after borde|
+  393  |                 |r patrol discovered small amounts of uranium in metal|
+  394  |                 | bars shipped to the UK from Pakistan in… [+2409 char|
+  395  |                 |s]                                                   |
+  396  -------------------
+  397  |Источник         |                                          Gizmodo.com|
+  398  |Новость          |May lost her job after ignoring the DUP.             |
+  399  |Ссылка           |https://gizmodo.com/uranium-found-at-london-heathrow-|
+  400  |                 |airport-in-december-1849976147                       |
+  401  |Дата             |                                     24.02.2023 19:37|
+  402  |Описание         |Police reassured Heathrow Airport passengers on Tuesd|
+  403  |                 |ay that there is no threat at the airport after borde|
+  404  |                 |r patrol discovered small amounts of uranium in metal|
+  405  |                 | bars shipped to the UK from Pakistan in late Decembe|
+  406  |                 |r. Read more...                                      |
+  407  |Текст            |Police reassured Heathrow Airport passengers on Tuesd|
+  408  |                 |ay that there is no threat at the airport after borde|
+  409  |                 |r patrol discovered small amounts of uranium in metal|
+  410  |                 | bars shipped to the UK from Pakistan in… [+2409 char|
+  411  |                 |s]                                                   |
+  412  -------------------------------------------------------------------------
+  413  |                 |s]                                                   |
+  414  sudo make test
+  415  sudo service docker start
+  416  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-portfolio
+  417  docker compose exec app bash
+  418  sudo docker compose exec app bash
+  419  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-portfolio
+  420  sudo service docker start
+  421  sudo docker compose build
+  422  sudo docker compose up
+  423  sudo service docker start
+  424  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-portfolio
+  425  sudo make migrate
+  426  sudo make migrations
+  427  sudo make superuser
+  428  sudo make up
+  429  sudo make test
+  430  sudo make up
+  431  sudo make migrate
+  432  sudo make migrations
+  433  sudo make up
+  434  python manage.py migrate
+  435  sudo make migrate
+  436  sudo make up
+  437  make all
+  438  sudo make all
+  439  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-portfolio
+  440  sudo service docker status
+  441  docker ps
+  442  sudo docker ps
+  443  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-portfolio
+  444  sudo service docker start
+  445  sudo make docs-html
+  446  sudo service docker start
+  447  cd /mnt/c/Users/Максим/Desktop/python-course/python-course-countries-informer
+  448  sudo make build
+  449  history > commands.txt

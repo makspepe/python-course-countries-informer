@@ -4,7 +4,7 @@ from django.db.models import Q, QuerySet
 from django.db.models.functions import Lower
 
 from geo.clients.geo import GeoClient
-from geo.clients.shemas import CountryDTO
+from geo.clients.schemas import CountryDTO
 from geo.models import Country
 
 
