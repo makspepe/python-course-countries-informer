@@ -20,7 +20,6 @@ class NewsClient(BaseClient):
     def get_base_url(self) -> str:
         return "https://newsapi.org/v2"
 
-
     def get_news(self, alpha2code: str) -> Optional[list[NewsItemDTO]]:
         """
         Получение новостной ленты для указанной страны.

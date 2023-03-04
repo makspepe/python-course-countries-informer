@@ -48,6 +48,7 @@ class CitySerializer(serializers.ModelSerializer):
             "country",
         ]
 
+
 class CurrencySerializer(serializers.ModelSerializer):
     """
     Сериализатор для данных о валюте.
@@ -95,4 +96,3 @@ class WeatherSerializer(serializers.ModelSerializer):
             "timezone",
             "city",
         ]
-

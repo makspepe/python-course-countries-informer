@@ -33,7 +33,9 @@ class BaseClient(ABC):
         """
         try:
             with httpx.Client(timeout=REQUESTS_TIMEOUT) as client:
-                response = client.get(endpoint, headers=self.headers, params=self.params)
+                response = client.get(
+                    endpoint, headers=self.headers, params=self.params
+                )
                 response.raise_for_status()
                 return response.json()
         except (httpx.HTTPError, httpx.TimeoutException, httpx.RequestError) as e:

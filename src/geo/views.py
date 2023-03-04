@@ -15,7 +15,7 @@ from geo.services.weather import WeatherService
 from geo.services.currency import CurrencyService
 from geo.services.schemas import CountryCityDTO
 
-rom rest_framework.settings import api_settings
+from rest_framework.settings import api_settings
 from app.settings import CACHE_WEATHER, CACHE_CURRENCY
 from geo.serializers import (
     CountrySerializer,

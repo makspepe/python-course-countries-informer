@@ -16,14 +16,23 @@ class CurrencyService:
         :param str currency_base: название валюты
         :return:
         """
-        currency_rates = CurrencyRates.objects.filter(currency__base__icontains=currency_base)
+        currency_rates = CurrencyRates.objects.filter(
+            currency__base__icontains=currency_base
+        )
         if not currency_rates:
             currency_data = CurrencyClient().get_rates(currency_base)
             if currency_data:
-                currency = Currency.objects.create(base=currency_data.base, date=currency_data.date)
-                bulk_rates = [self.build_model_rates(currency, name, rate) for name, rate in currency_data.rates.items()]
+                currency = Currency.objects.create(
+                    base=currency_data.base, date=currency_data.date
+                )
+                bulk_rates = [
+                    self.build_model_rates(currency, name, rate)
+                    for name, rate in currency_data.rates.items()
+                ]
                 CurrencyRates.objects.bulk_create(bulk_rates, batch_size=1000)
-                currency_rates = CurrencyRates.objects.filter(currency__base__icontains=currency.base)
+                currency_rates = CurrencyRates.objects.filter(
+                    currency__base__icontains=currency.base
+                )
         return currency_rates
 
     def build_model_rates(

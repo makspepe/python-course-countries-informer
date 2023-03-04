@@ -6,6 +6,7 @@ from geo.clients.weather import WeatherClient
 from geo.models import Country
 from geo.models import Weather
 from geo.services.city import CityService
+from geo.clients.schemas import WeatherInfoDTO
 
 
 class WeatherService:

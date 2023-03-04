@@ -35,11 +35,11 @@ migrate: db
 	docker compose run countries-informer-app python manage.py migrate
 
 # создание миграций
-makemigrations:
+migrations:
 	docker compose run countries-informer-app python manage.py makemigrations
 
 # создание админа
-create_super_user:
+superuser:
 	docker compose run countries-informer-app python manage.py createsuperuser
 
 # запуск всех функций поддержки качества кода

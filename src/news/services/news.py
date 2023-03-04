@@ -29,12 +29,14 @@ class NewsService:
                     codes = CountryService().get_countries_codes() or {}
                     if country_code not in codes:
                         return None
-                news = News.objects.bulk_create([
-                    self.build_model(news_item, codes[country_code])  # type: ignore
-                    for news_item in news_data
-                ], batch_size=1000)
+                news = News.objects.bulk_create(
+                    [
+                        self.build_model(news_item, codes[country_code])  # type: ignore
+                        for news_item in news_data
+                    ],
+                    batch_size=1000,
+                )
         return news  # type: ignore
-
 
     def save_news(self, country_pk: int, news: list[News]) -> None:
         """
@@ -45,9 +47,10 @@ class NewsService:
         """
 
         if news:
-            News.objects.bulk_create([
-                self.build_model(news_item, country_pk) for news_item in news
-            ], batch_size=1000)
+            News.objects.bulk_create(
+                [self.build_model(news_item, country_pk) for news_item in news],
+                batch_size=1000,
+            )
 
     def build_model(self, news_item: News, country: int) -> News:
         """
