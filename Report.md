@@ -7,16 +7,12 @@
 
 ## Что было сделано
 
--   Автотесты
 -   Обновлена документация
 -   Получение курса валют, новостей по стране
 -   Сериализаторы
 -   Пагинация
 
 НЕ СДЕЛАНО - Сохранять атрибут у страны "capital" как ссылку на город – внешний ключ (если города нет, то найти и импортировать в БД).
-
-### Автотесты
-![](https://raw.githubusercontent.com/makspepe/python-course-countries-informer/hw4/pics/auto.PNG)
 
 ### Получение курса валют
 ![](https://raw.githubusercontent.com/makspepe/python-course-countries-informer/hw4/pics/getcurrency.PNG)
